@@ -1,0 +1,39 @@
+# ------------------------------
+# Zephyr / nRF52840 Project Ignore List
+# ------------------------------
+
+# Build artifacts
+build/
+zephyr/
+CMakeFiles/
+CMakeCache.txt
+*.cmake
+*.ninja
+*.o
+*.a
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+
+# Python virtual environment
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Editor / OS files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*~
+
+# Logs
+*.log
+
+# Temporary backup or auto-save files
+*.bak
+*.tmp
