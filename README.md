@@ -1,7 +1,5 @@
-# Zephyr nRF52840-DK – LED Blinky Project
-
-This repository tracks my progress using the **nRF52840-DK** with **Zephyr RTOS** on Ubuntu.
-It includes code, build configurations, and documentation for experiments with the board’s peripherals (GPIO, BLE, etc.).
+## Starter Sample
+https://docs.zephyrproject.org/latest/develop/getting_started/index.html
 
 ---
 
