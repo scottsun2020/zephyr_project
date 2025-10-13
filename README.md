@@ -30,4 +30,13 @@ pip install -r zephyr/scripts/requirements.txt
 
 ```
 
+
+### 2. Build Blinky Sample
+
+```
+cd ~/zephyrproject/zephyr
+west build -p always -b <your-board-name> samples/basic/blinky
+west flash -r nrfutil
+```
+
 ![ezgif-4421fff72fb6c1](https://github.com/user-attachments/assets/6725ccf9-7a67-470c-9693-cc30709aaebe)
